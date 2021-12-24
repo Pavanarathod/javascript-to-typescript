@@ -3,4 +3,10 @@ function personData(name: string, age: number, programmingLanguage: string[]) {
   return data;
 }
 
+const arrayTypes = (
+  language: string[],
+  salary: number[],
+  okay: boolean[]
+) => {};
+
 console.log(personData("pavan", 26, ["python", "javascript", "java"]));
